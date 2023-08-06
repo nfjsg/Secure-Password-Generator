@@ -1,48 +1,23 @@
 # Project Name
 
-Replace with your project's name.
-
+CHALLENGE
 ## Description
 
-Provide a brief overview of your project. Explain what it does, its purpose, and any unique features.
+I was provided with an HTML and CSS codebase and tasked with adhering to the following criteria to enhance the code structure:
 
-## Table of Contents
+Confirming the webpage's compliance with accessibility standards.
+Ensuring the presence of semantic HTML elements in the source code.
+Verifying that the HTML elements exhibit a coherent structure regardless of their styling or positioning.
+Checking for the availability of meaningful alt attributes for image elements.
+Confirming that heading attributes are properly organized in sequential order.
+Ensuring the title element provides a succinct and descriptive title when viewing the webpage.
 
-- [Screenshots](#screenshots)
-- [Demo](#demo)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Screenshots
+![Alt text](image-1.png)
 
-Insert screenshots or GIFs showcasing your project. You can upload these images to your repository and link to them here.
 
 ## Demo
 
 Provide a link to the deployed application or a live demo (if applicable).
 
-## Installation
-
-Provide step-by-step instructions on how to install and set up your project. Include any dependencies and commands needed to get your project up and running.
-
-## Usage
-
-Explain how users can use your project. Provide examples and instructions for different use cases. Include code snippets if necessary.
-
-## Contributing
-
-Explain how others can contribute to your project. Mention guidelines for submitting pull requests, reporting issues, and the contribution process.
-
-## License
-
-Specify the license under which your project is distributed. You can choose a license that suits your project's needs and provide a link to the full license text.
-
-## Contact
-
-Provide your contact information (email or social media) so that users can reach out to you with questions or feedback.
-
----
-
-Feel free to add additional sections or modify the content as needed to accurately represent your project. A comprehensive and well-structured README will make your project more accessible and inviting to potential users and contributors.
