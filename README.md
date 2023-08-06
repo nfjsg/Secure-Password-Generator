@@ -19,5 +19,6 @@ Ensuring the title element provides a succinct and descriptive title when viewin
 
 ## Demo
 
-Provide a link to the deployed application or a live demo (if applicable).
+https://nfjsg.github.io/challenge/
+
 
