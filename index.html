@@ -1,76 +1,84 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Developer Portfolio</title>
 </head>
 
 <body>
-    <!-- Header section with company name and navigation -->
-    <header class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
+    <header>
         <nav>
             <ul>
-                <li><a href="#search-engine-optimization">Search Engine Optimization</a></li>
-                <li><a href="#online-reputation-management">Online Reputation Management</a></li>
-                <li><a href="#social-media-marketing">Social Media Marketing</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-  <!-- Main content section -->
-  <div class="hero"></div>
-    <main class="content">
-       <!-- Section about Search Engine Optimization -->
-       <section class="search-engine-optimization">
-        <img src="./assets/images/search-engine-optimization.jpg" alt="Search Engine Optimization" class="float-left">
-        <h2>Search Engine Optimization</h2>
-        <p>The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.</p>
-    </section>
+   
 
-    <!-- Section about Online Reputation Management -->
-    <section id="online-reputation-management"class="online-reputation-management">
-        <img src="./assets/images/online-reputation-management.jpg" alt="Online Reputation Management" class="float-right">
-        <h2>Online Reputation Management</h2>
-        <p>The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.</p>
+    <section id="about">
+        <h1>T</h1>
+        <img src="avatar.jpg" alt="Developer's Photo">
+        <p>Hello there! T, a passionate web developer with a knack for turning ideas into interactive digital experiences. With a strong foundation in frontend and backend technologies, I'm on a mission to create beautiful and functional websites that leave a lasting impression.</p>
+        <p>My journey began in the world of coding a few years back when I discovered my love for crafting clean and elegant code. Since then, I've been honing my skills, diving deep into the latest frameworks and tools, and embracing the ever-evolving landscape of web development.</p>
+        <p>When I'm not immersed in lines of code, you'll likely find me exploring the outdoors, capturing moments through my camera lens, or sipping on a cup of artisanal coffee. I believe that life's most satisfying moments come from finding the perfect balance between creativity and technology.</p>
     </section>
+    </section>
+    <section id="work">
+        <h2>Work</h2>
+        <div class="work-images">
+            <div class="work-item">
+                <a href="url_of_application1" target="_blank"><img src="application1.jpg" alt="Application 1"></a>
+                
+                <p>Discover the power of seamless organization with Application 1. This innovative tool is designed to streamline your tasks and enhance your productivity. With intuitive features and a user-friendly interface, managing your to-do lists, calendars, and notes has never been easier.</p>
+            </div>
+            <div class="work-item larger">
+                <a href="url_of_application2" target="_blank"> <img src="application2.jpg" alt="Application 2"></a>
+               
+                <p>Dive into the world of creativity and design with Application 2. Unleash your imagination and bring your artistic visions to life using a comprehensive set of digital tools. From graphic design to photo editing, Application 2 empowers you to create stunning visuals that captivate and inspire.</p>
+            </div>
+            <div class="work-item">
+                <a href="url_of_application3" target="_blank">
 
-    <!-- Section about Social Media Marketing -->
-    <section id="social-media-marketing"class="social-media-marketing">
-        <img src="./assets/images/social-media-marketing.jpg" alt="Social Media Marketing" class="float-left">
-        <h2>Social Media Marketing</h2>
-        <p>Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.</p>
+                <img src="application3.jpg" alt="Application 3">
+                </a>
+                <p>Introducing Application 3, your gateway to immersive entertainment. Immerse yourself in a world of interactive experiences and engaging narratives. With a wide range of genres and content, Application 3 offers endless hours of entertainment for users of all ages.</p>
+            </div>
+        </div>
     </section>
-    </main>
- <!-- Aside section with benefits -->
- <aside class="benefits">
-    <!-- Benefit: Lead Generation -->
-    <section class="benefit-lead">
-        <h3>Lead Generation</h3>
-        <img src="./assets/images/lead-generation.png" alt="Lead Generation">
-        <p>Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.</p>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you're interested in collaborating on a project, discussing opportunities, or simply saying hello, I'd love to hear from you! Feel free to use the contact form below or reach out through the provided channels.</p>
+        
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    
+        <p>Alternatively, you can connect with me on social media:</p>
+        <ul class="social-links">
+            <li><a href="https://twitter.com/developername" target="_blank">Twitter</a></li>
+            <li><a href="https://linkedin.com/in/developername" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/developername" target="_blank">GitHub</a></li>
+        </ul>
+    
+        <p>I'm excited to hear from you and explore potential collaborations!</p>
     </section>
-
-    <!-- Benefit: Brand Awareness -->
-    <section class="benefit-brand">
-        <h3>Brand Awareness</h3>
-        <img src="./assets/images/brand-awareness.png" alt="Brand Awareness">
-        <p>Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.</p>
-    </section>
-
-    <!-- Benefit: Cost Management -->
-    <section class="benefit-cost">
-        <h3>Cost Management</h3>
-        <img src="./assets/images/cost-management.png" alt="Cost Management">
-        <p>As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.</p>
-    </section>
-</aside>
- <!-- Footer section -->
- <footer class="footer">
-    <h2>Made with ❤️️ by Horiseon</h2>
-    <p>&copy; 2023 Horiseon Social Solution Services, Inc.</p>
-</footer>
+    <footer>
+        <p>&copy; 2023 Developer Portfolio. </p>
+    </footer>
 </body>
 
 </html>
