@@ -1,84 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Developer Portfolio</title>
-</head>
-
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-   
-
-    <section id="about">
-        <h1>T</h1>
-        <img src="assets/images/avatar.jpg" alt="Developer's Photo">
-        <p>Hello there! T, a passionate web developer with a knack for turning ideas into interactive digital experiences. With a strong foundation in frontend and backend technologies, I'm on a mission to create beautiful and functional websites that leave a lasting impression.</p>
-        <p>My journey began in the world of coding a few years back when I discovered my love for crafting clean and elegant code. Since then, I've been honing my skills, diving deep into the latest frameworks and tools, and embracing the ever-evolving landscape of web development.</p>
-        <p>When I'm not immersed in lines of code, you'll likely find me exploring the outdoors, capturing moments through my camera lens, or sipping on a cup of artisanal coffee. I believe that life's most satisfying moments come from finding the perfect balance between creativity and technology.</p>
-    </section>
-    </section>
-    <section id="work">
-        <h2>Work</h2>
-        <div class="work-images">
-            <div class="work-item">
-                <a href="url_of_application1" target="_blank"><img src="assets/images/application1.jpg" alt="Application 1"></a>
-                
-                <p>Discover the power of seamless organization with Application 1. This innovative tool is designed to streamline your tasks and enhance your productivity. With intuitive features and a user-friendly interface, managing your to-do lists, calendars, and notes has never been easier.</p>
-            </div>
-            <div class="work-item larger">
-                <a href="url_of_application2" target="_blank"> <img src="assets/images/application2.jpg" alt="Application 2"></a>
-               
-                <p>Dive into the world of creativity and design with Application 2. Unleash your imagination and bring your artistic visions to life using a comprehensive set of digital tools. From graphic design to photo editing, Application 2 empowers you to create stunning visuals that captivate and inspire.</p>
-            </div>
-            <div class="work-item">
-                <a href="url_of_application3" target="_blank">
-
-                <img src="assets/images/application3.jpg" alt="Application 3">
-                </a>
-                <p>Introducing Application 3, your gateway to immersive entertainment. Immerse yourself in a world of interactive experiences and engaging narratives. With a wide range of genres and content, Application 3 offers endless hours of entertainment for users of all ages.</p>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Password Generator</h1>
+      </header>
+      <div class="card">
+        <div class="card-header">
+          <h2>Generate a Password</h2>
         </div>
-    </section>
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>If you're interested in collaborating on a project, discussing opportunities, or simply saying hello, I'd love to hear from you! Feel free to use the contact form below or reach out through the provided channels.</p>
-        
-        <form id="contact-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-            
-            <button type="submit">Send Message</button>
-        </form>
-    
-        <p>Alternatively, you can connect with me on social media:</p>
-        <ul class="social-links">
-            <li><a href="https://twitter.com/developername" target="_blank">Twitter</a></li>
-            <li><a href="https://linkedin.com/in/developername" target="_blank">LinkedIn</a></li>
-            <li><a href="https://github.com/developername" target="_blank">GitHub</a></li>
-        </ul>
-    
-        <p>I'm excited to hear from you and explore potential collaborations!</p>
-    </section>
-    <footer>
-        <p>&copy; 2023 Developer Portfolio. </p>
-    </footer>
-</body>
-
+        <div class="card-body">
+          <textarea
+            readonly
+            id="password"
+            placeholder="Your Secure Password"
+            aria-label="Generated Password"
+          ></textarea>
+        </div>
+        <div class="card-footer">
+          <button id="generate" class="btn">Generate Password</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
