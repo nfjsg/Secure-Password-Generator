@@ -2,7 +2,7 @@
 
 Generate secure passwords tailored to your preferences with the Secure Password Generator. This application allows you to create strong passwords by selecting various criteria such as length and character types. Ensure your online accounts stay safe with passwords that meet your security needs.
 
-![Screenshot](screenshot.jpeg)
+![Screenshot](IMG_7212.jpeg)
 
 ## Table of Contents
 
