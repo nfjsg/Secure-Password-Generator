@@ -1,50 +1,52 @@
-# Developer Portfolio
+# Secure Password Generator
 
-Welcome to my developer portfolio! This project showcases my previous work as a web developer and follows the acceptance criteria outlined below. This README provides an overview of the project and its features.
+Generate secure passwords tailored to your preferences with the Secure Password Generator. This application allows you to create strong passwords by selecting various criteria such as length and character types. Ensure your online accounts stay safe with passwords that meet your security needs.
 
-## Acceptance Criteria
+![Screenshot](screenshot.png)
 
-### Viewing Portfolio
+## Table of Contents
 
-- When you load the portfolio, you will be presented with the developer's name, a recent photo or avatar, and links to sections about the developer, their work, and how to contact them.
+- [Description](#description)
+- [Features](#features)
+- [Usage](#usage)
+- [Getting Started](#getting-started)
+- [Live Demo](#live-demo)
+- [License](#license)
 
-### Navigation
+## Description
 
-- Clicking on the navigation links will smoothly scroll the UI to the corresponding sections: "About," "Work," and "Contact."
+The Secure Password Generator is a user-friendly web application designed to provide you with strong and secure passwords. It addresses the need for robust passwords by allowing you to customize your password based on length and character types, ensuring your online accounts remain protected.
 
-### Work Section
+## Features
 
-- Clicking the "Work" link will scroll to a section displaying titled images of the developer's applications.
-- The developer's first application's image will be larger in size compared to the others.
+- Prompted series of criteria selection for password generation
+- Customizable password length between 8 and 128 characters
+- Option to include lowercase, uppercase, numeric, and special characters
+- Validation to ensure input criteria are valid and at least one character type is selected
+- Generated password that adheres to the selected criteria
 
-### Application Images
+## Usage
 
-- Clicking on the images of the applications will take you to the respective deployed applications.
-
-### Responsive Design
-
-- The portfolio will adapt to different screen sizes and devices, ensuring a responsive layout that's easy to navigate and view.
+1. Open the [Secure Password Generator](https://your-deployed-link.com).
+2. Click the "Generate Password" button to begin the process.
+3. Follow the prompts to customize your password:
+   - Enter a desired password length (between 8 and 128 characters).
+   - Choose which character types to include (lowercase, uppercase, numeric, and special characters).
+4. Once all prompts are answered, your secure password will be generated and displayed on the page.
 
 ## Getting Started
 
-To view the portfolio locally, follow these steps:
+To run the Secure Password Generator locally, follow these steps:
 
-1. Clone this repository to your local machine.
-2. Open the `index.html` file in a web browser.
+1. Clone this repository to your local machine:
+2. Navigate to the project directory:
+3. Open the `index.html` file in a web browser to start generating passwords.
 
-## Technologies Used
+## Live Demo
 
-- HTML
-- CSS
-
-## Contact
-
-
+Experience the [Secure Password Generator](https://your-deployed-link.com) in action!
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
-*This portfolio was created with passion and dedication by T.*
