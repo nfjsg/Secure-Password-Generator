@@ -44,7 +44,7 @@ To run the Secure Password Generator locally, follow these steps:
 
 ## Live Demo
 
-Experience the [Secure Password Generator]([https://your-deployed-link.com](https://nfjsg.github.io/password-generator-/)) in action!
+Experience the [Secure Password Generator](https://nfjsg.github.io/password-generator-/) in action!
 
 ## License
 
