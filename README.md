@@ -27,7 +27,7 @@ The Secure Password Generator is a user-friendly web application designed to pro
 
 ## Usage
 
-1. Open the [Secure Password Generator](https://your-deployed-link.com](https://nfjsg.github.io/password-generator-/).
+1. Open the [Secure Password Generator](https://nfjsg.github.io/password-generator-/).
 2. Click the "Generate Password" button to begin the process.
 3. Follow the prompts to customize your password:
    - Enter a desired password length (between 8 and 128 characters).
